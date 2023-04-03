@@ -8,7 +8,7 @@ __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修
 ### 修改方式
 
 需要先安裝[node.js](https://nodejs.org/)環境以使用asar包裝工具。  
-接下來要安裝[asar包裝工具](https://github.com/electron/asar)，請照著裡面的指示安裝。  
+接下來要安裝[asar包裝工具](https://github.com/electron/asar#install)，請照著裡面的指示安裝。  
 然後下一步請找到Digital Paper App的程式檔，是以asar格式包裝的網頁，通常位於以下位置： 
 
 #### Sony Digital Paper App：
