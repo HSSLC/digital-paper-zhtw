@@ -4,6 +4,11 @@ __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修
 
 （以下通稱Sony Digital Paper App與Fujitsu Digital Paper PC App為Digital Paper App）  
 
+### 螢幕截圖
+
+![screenshot of sony](screenshots/sony.png)
+![screenshot of fujitsu](screenshots/fujitsu.png)
+
 ### 修改方式
 
 需要先安裝[node.js](https://nodejs.org/)環境以使用asar包裝工具。  
@@ -47,11 +52,6 @@ node %USERPROFILE%\node_modules\@electron\asar\bin\asar.js pack app app.asar
 目前提供的翻譯檔案適用於以下版本，其他版本不保證可以完全相容：
 * Digital Paper App 1.4.6.00008版（Sony）
 * Digital Paper PC App 1.1.1.09250版（Fujitsu）
-
-### 螢幕截圖
-
-![screenshot of sony](screenshots/sony.png)
-![screenshot of fujitsu](screenshots/fujitsu.png)
 
 ### 聲明
 
