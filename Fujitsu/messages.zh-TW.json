@@ -1,0 +1,1072 @@
+{
+    "app": {
+        "defaultname": {
+            "screenshot": {
+                "prefix": "DP_"
+            },
+            "syncconflict": {
+                "prefix": "_conflicted_"
+            }
+        },
+        "format": {
+            "date": {
+                "type1": "{{dtYear}}/{{dtMonth}}/{{dtDate}}",
+                "type2": "{{dtMonth}}/{{dtDate}}/{{dtYear}}"
+            },
+            "dateTime": "{{app.format.date}} {{app.format.time}}",
+            "fileSize": {
+                "byte": "{{filesize}} Byte",
+                "giga": "{{filesize}} GB",
+                "kilo": "{{filesize}} KB",
+                "mega": "{{filesize}} MB"
+            },
+            "time": {
+                "12h": {
+                    "am": "上午 {{dtHour}}:{{dtMin}}",
+                    "pm": "下午 {{dtHour}}:{{dtMin}}"
+                },
+                "type1": "{{dtHour}}:{{dtMin}}",
+                "type2": "{{dtHour}}:{{dtMin}}"
+            }
+        },
+        "language": {
+            "name": "Chinese(Tradionnal)"
+        },
+        "name": "Digital Paper PC App",
+        "system": {
+            "win": {
+                "filetype": {
+                    "document": "PDF (*.pdf)"
+                }
+            }
+        },
+        "words": {
+            "abort": "終止",
+            "back": "返回",
+            "cancel": "取消",
+            "close": "關閉",
+            "minutes": "分鐘",
+            "next": "下一步",
+            "no": "否",
+            "ok": "確定",
+            "seconds": "秒",
+            "skip": "跳過",
+            "yes": "是"
+        }
+    },
+    "appInfo": {
+        "label": {
+            "version": "版本"
+        },
+        "title": "Digital Paper PC App版本資訊",
+        "version": {
+            "value": "{{version}}"
+        },
+        "appid": "{{appid}}"
+    },
+    "config": {
+        "addTemplate": {
+            "button": {
+                "file": "選擇檔案"
+            },
+            "description": "新增建立筆記時所使用的模板。請選擇PDF檔案，並輸入模板名稱。",
+            "label": {
+                "fileName": "檔案名稱",
+                "templateName": "模板名稱"
+            },
+            "title": "新增模板"
+        },
+        "autosync": {
+            "interval": {
+                "hour_1": "60分鐘",
+                "min_10": "10分鐘",
+                "min_30": "30分鐘",
+                "min_90": "90分鐘"
+            },
+            "label": {
+                "interval": "間隔"
+            },
+            "setting": {
+                "description": "啟動Digital Paper PC App時，將按預定的間隔自動同步電子紙資料。",
+                "off": "關閉",
+                "on": "打開"
+            }
+        },
+        "btautoconnect": {
+            "description": "Digital Paper PC App將自動連線已完成Bluetooth配對的電子紙。<br/>\n詳情請瀏覽{{link}}。",
+            "linkOfDescription": "此處",
+            "off": "關閉",
+            "on": "開啟"
+        },
+        "button": {
+            "pairing": "配對",
+            "repairing": "重新配對",
+            "update": "更新"
+        },
+        "dp": {
+            "label": {
+                "serialId": "裝置 ID",
+                "version": "版本"
+            }
+        },
+        "generalSettings": {
+            "autosleep": {
+                "m10": "10分鐘",
+                "m30": "30分鐘",
+                "m5": "5分鐘",
+                "m60": "60分鐘",
+                "none": "永不"
+            },
+            "description": {
+                "autosleep": "在設定的時間內沒有進行操作，進入睡眠模式。",
+                "userName": "對檔案註解的作者使用。"
+            },
+            "formatDate": {
+                "mdy": "月 / 日 / 年",
+                "ymd": "年 / 月 / 日"
+            },
+            "formatTime": {
+                "hour12": "12 小時制",
+                "hour24": "24 小時制"
+            },
+            "label": {
+                "autosleep": "自動睡眠",
+                "button": {
+                    "edit": "編輯"
+                },
+                "formatDate": "日期顯示格式",
+                "formatTime": "時間顯示格式",
+                "timezone": "時區",
+                "userName": "使用者名稱"
+            },
+            "timezone": {
+                "m1": "UTC -1:00",
+                "m10": "夏威夷－阿留申標準時間",
+                "m11": "UTC -11:00",
+                "m12": "UTC -12:00",
+                "m2": "UTC -2:00",
+                "m3": "UTC -3:00",
+                "m4": "大西洋標準時間",
+                "m5": "美國東部標準時間",
+                "m6": "美國中部標準時間",
+                "m7": "美國山地標準時間",
+                "m8": "美國太平洋標準時間",
+                "m9": "阿拉斯加標準時間",
+                "p1": "中歐標準時間",
+                "p10": "UTC +10:00",
+                "p11": "UTC +11:00",
+                "p2": "東歐標準時間",
+                "p3": "UTC +3:00",
+                "p4": "UTC +4:00",
+                "p5": "UTC +5:00",
+                "p6": "UTC +6:00",
+                "p7": "UTC +7:00",
+                "p8": "台北標準時間",
+                "p9": "日本標準時間",
+                "utc": "UTC"
+            },
+            "title": "一般設定"
+        },
+        "label": {
+            "autosync": "自動同步",
+            "btautoconnect": "Bluetooth 自動連線",
+            "dp": "已配對的電子紙",
+            "generalSettings": "一般設定",
+            "templates": "筆記模板",
+            "wifiOnOff": {
+                "wifiSettings": "電子紙的Wi-Fi"
+            },
+            "wifiSettings": "已儲存Wi-Fi網路列表"
+        },
+        "templates": {
+            "button": {
+                "addNew": "新增",
+                "delete": "刪除",
+                "rename": "重新命名"
+            }
+        },
+        "title": "設定",
+        "wifi": {
+            "title": "新增Wi-Fi網路",
+            "wifiDetail": {
+                "status": {
+                    "description": "無論電子紙是否處於可接收訊號的範圍內，Wi-Fi連線處於「未連線」或「連線中」狀態時，所有儲存的資訊可能不正確。請按下[返回]後確認設定。<br/>\n<br/>\n直接結束時，請按[關閉]。"
+                }
+            }
+        },
+        "wifiSettings": {
+            "button": {
+                "addNew": "新增",
+                "delete": "刪除",
+                "edit": "編輯"
+            },
+            "description": "設定電子紙Wi-Fi時，請連線USB，並將[電子紙的Wi-Fi]置於[開啟]。",
+            "radio": {
+                "wifiOff": "關閉",
+                "wifiOn": "開啟"
+            }
+        }
+    },
+    "content": {
+        "init": {
+            "linkOfNoDeviceMsg": "此處",
+            "noRegMsg": "請使用USB連線電腦與電子紙。<br/>\n開始設定與電子紙的配對。<br/>\n<br/>\n稍待片刻後，電腦上仍未顯示設定視窗時，請重新插入USB。<br/>\n請在電子紙啟動的狀態下進行該操作。",
+            "parts": {
+                "noDeviceMsg": {
+                    "i1": "1.",
+                    "i2": "2.",
+                    "i3": "3.",
+                    "p1": "請連接電子紙。",
+                    "p10": "連線指南",
+                    "p2": "識別電子紙需數十秒的時間。",
+                    "p3": "稍待片刻若仍未辨識，則請確定以下事項。",
+                    "p4": "已開啟電子紙電源{{icon}}。",
+                    "p5": "透過USB連線時<br />使用USB連接電子紙與電腦。",
+                    "p6": "使用Bluetooth功能連線時<br />以配對Bluetooth。",
+                    "p7": "手動連線時，請按以下按鈕。",
+                    "p8": "使用Wi-Fi連線時<br />連線到電子止可與電腦通訊的Wi-Fi網路。",
+                    "p9": "電子紙與電腦間連線方式請瀏覽此處。"
+                }
+            },
+            "url": {
+                "noDeviceMsg": {
+                    "cn": "http://www.fmworld.net/digital-paper/support/",
+                    "jp": "http://www.fmworld.net/digital-paper/support/",
+                    "us": "http://www.fmworld.net/digital-paper/support/"
+                }
+            }
+        },
+        "list": {
+            "caption": {
+                "noItemDV": "沒有檔案。",
+                "noItemFV": "沒有資料夾及檔案。",
+                "noItemSearch": "未能找到符合條件的資料夾、檔案。"
+            },
+            "header": {
+                "author": "作者",
+                "dateAdded": "建立日期",
+                "dateModified": "更新日期",
+                "dateRead": "閱覽日期",
+                "file": "檔案名稱",
+                "size": "檔案大小",
+                "title": "標題"
+            }
+        },
+        "navi": {
+            "abbrev": "...",
+            "allDoc": "所有檔案",
+            "label": {
+                "closeSearchResult": "關閉搜尋結果",
+                "searchPath": "搜尋位置",
+                "searchTarget": "搜尋目標"
+            },
+            "root": "裝置儲存空間"
+        },
+        "sub": {
+            "label": {
+                "abort": "終止",
+                "exporting": "正在傳送至電子紙",
+                "importing": "正在傳送至電腦",
+                "sep": "/",
+                "sync": "正在與電腦同步",
+                "syncstate": {
+                    "abort": "已終止同步。",
+                    "complete": "已完成同步。",
+                    "error": "出現錯誤，現已終止同步。",
+                    "finish": "同步結束。但有錯誤。",
+                    "unsynced": "啟動Digital Paper PC App後，尚未進行同步。"
+                },
+                "unit": "檔案"
+            }
+        }
+    },
+    "desc": {
+        "func": {
+            "app": {
+                "launchSupportSite": "下面為您介紹電子紙相關最新資訊與使用技巧。"
+            }
+        }
+    },
+    "dialog": {
+        "autoclose": {
+            "exportOnDocView": {
+                "message": "按下工具欄[資料夾]，切換顯示後執行。",
+                "title": "匯入電子紙"
+            }
+        },
+        "choice": {
+            "button": {
+                "applyAll": "全部套用"
+            },
+            "copy": {
+                "button": {
+                    "keepBoth": "兩者皆保留",
+                    "replace": "取代檔案",
+                    "skip": "不取代檔案直接跳過"
+                }
+            },
+            "description": {
+                "copy": "複製對象的文件夾中存在名稱相同的文件。<br/>\n<br/>\n檔案名<br/>\n{{fileName}}",
+                "move": "移動對象的文件夾中存在名稱相同的文件。<br/>\n<br/>\n檔案名<br/>\n{{fileName}}"
+            },
+            "move": {
+                "button": {
+                    "keepBoth": "保持雙方文件",
+                    "replace": "替換文件",
+                    "skip": "不替換文件直接跳過"
+                }
+            },
+            "title": {
+                "copy": "複製",
+                "move": "移動"
+            }
+        },
+        "choice2": {
+            "confirmDpPairing": {
+                "b1": "重設連接資訊",
+                "b2": "關閉",
+                "message": "無法連線到電子紙。\n網路連線不穩定時，請選擇[關閉]，並於通訊穩定處重新連線或使用USB連線。\n\n電子紙初始化後首次連線時，請選擇[重設連線資訊]。",
+                "title": "Digital Paper PC App"
+            }
+        },
+        "confirm": {
+            "abortExit": {
+                "message": "是否終止向電子紙傳送檔案，並結束Digital Paper PC App？",
+                "title": "結束"
+            },
+            "abortExitEx": {
+                "message": "正在與電子紙之間傳輸檔案，傳輸將會停止，是否繼續？",
+                "title": "確認"
+            },
+            "abortExporting": {
+                "message": "是否終止向電子紙進行傳送？",
+                "title": "確認"
+            },
+            "abortImporting": {
+                "message": "是否終止向電腦進行傳送？",
+                "title": "確認"
+            },
+            "abortSync": {
+                "message": "是否終止與電腦同步？",
+                "title": "確認"
+            },
+            "abortTransferByUpdate": {
+                "message": "是否將電子紙韌體的版本進行更新？\n開始更新後將終止檔案傳送。",
+                "title": "韌體更新"
+            },
+            "cancelDPAUpdate": {
+                "message": "是否終止Digital Paper PC App韌體更新?",
+                "title": "韌體更新"
+            },
+            "cancelDPUpdate": {
+                "message": "是否終止電子紙的韌體更新？",
+                "title": "韌體更新"
+            },
+            "delete": {
+                "message": "是否刪除所選取的項目?"
+            },
+            "deleteTemplate": {
+                "message": "是否刪除所選取的項目?",
+                "title": "刪除"
+            },
+            "deleteWifi": {
+                "message": "是否刪除下一個Wi-Fi網路設定？\nSSID: {{ssid}}",
+                "title": "刪除"
+            },
+            "pairingCancel": {
+                "message": "是否與電子紙解除配對？\n\n重新開始配對時，請重新接上USB，或從選單[工具] - [設定]中進行配對。",
+                "title": "連線至電子紙"
+            },
+            "rePairing": {
+                "message": "是否設定電子紙的連線？\n\n選擇電子紙，並進行配對後，將重設所連線的電子紙的連線資訊。\n正在傳送檔案時，將停止傳送。",
+                "title": "重新設定配對"
+            },
+            "releaseSyncFolder": {
+                "message": "是否解除同步設定？\n解除後，開資料夾內的資料夾、檔案將不再與電腦進行同步。\n即使解除也不會刪除資料夾、檔案。",
+                "title": "解除同步設定"
+            },
+            "releaseSyncSettingByOperation": {
+                "message": "正在對該資料夾或子資料夾進行同步設定。\n執行該操作後，將解除同步設定。\n是否執行？"
+            },
+            "resetAndExit": {
+                "message": "是否重設目前連線的電子紙連線資訊？\n\n重設連線資訊也會解除同步資料夾設定。\n\n選擇[是]時將結束Digital Paper PC App。\n請重新啟動，並進行與電子紙的配對。",
+                "title": "重設連線資訊"
+            },
+            "syncNow": {
+                "message": "已設定同步資料夾。\n是否立即開始同步？",
+                "title": "設定同步資料夾。"
+            }
+        },
+        "edit": {
+            "fileName": {
+                "message": "請輸入檔案名稱。",
+                "title": "重新命名"
+            },
+            "folderName": {
+                "message": "請輸入資料夾名稱。",
+                "title": "重新命名"
+            },
+            "installCertName": {
+                "message": "請輸入憑證名稱。",
+                "title": "安裝憑證"
+            },
+            "installCertPass": {
+                "message": "請輸入憑證密碼。",
+                "title": "安裝憑證"
+            },
+            "newFolder": {
+                "message": "請輸入資料夾名稱。",
+                "title": "建立資料夾"
+            },
+            "templateName": {
+                "message": "請輸入筆記模板名稱。",
+                "title": "重新命名"
+            }
+        },
+        "error": {
+            "message": {
+                "1": "發生不明原因的錯誤。\n\n錯誤代碼 {{errorCode}}",
+                "10": "安裝憑證失敗。\n進行配對時需安裝憑證。\n\n錯誤代碼 {{errorCode}}",
+                "11": "無法新增Wi-Fi網路。\n儲存於電子紙上的Wi-Fi網路數量已達上限。\n請刪除多餘Wi-Fi網路。\n\n錯誤代碼 {{errorCode}}",
+                "12": "無法登入Wi-Fi網路。\n未設定合理值。\n請確認輸入的值。\n\n錯誤代碼 {{errorCode}}",
+                "14": "傳輸終止。\n未找到傳輸來源位置的以下檔案。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "16": "檔案名稱中無法使用以下字元。\n　　/\n請輸入其他名稱。\n\n錯誤代碼 {{errorCode}}",
+                "18": "資料夾名稱中無法使用以下字元。\n　　/\n請輸入其他名稱。\n\n錯誤代碼 {{errorCode}}",
+                "19": "傳輸終止。\n資料夾路徑長度超過上限。\n請縮短檔案名稱，或儲存至其他資料夾。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "2": "無法啟動應用程式。\n應用程式已損壞。\n解除安裝Digital Paper PC App，並重新安裝。\n\n錯誤代碼 {{errorCode}}",
+                "20": "傳送終止。\n資料夾路徑長度超過上限。\n請縮短資料夾名稱，或儲存至其他資料夾。\n\n資料夾名稱\n{{folder}}\n\n錯誤代碼{{errorCode}}",
+                "21": "存在名稱相同的檔案。\n請輸入其他檔案名稱。\n\n錯誤代碼 {{errorCode}}",
+                "22": "存在名稱相同的資料夾。\n請輸入其他資料夾名稱。\n\n錯誤代碼 {{errorCode}}",
+                "23": "傳送終止。\n儲存目標可用空間不足。\n請刪除無用檔案、或選擇其他儲存目標。\n\n錯誤代碼 {{errorCode}}",
+                "24": "無法執行。\n電子紙可用空間不足。\n請刪除不需要的檔案。\n\n錯誤代碼 {{errorCode}}",
+                "26": "與電子紙的配對失敗。\n超過一定時間，發生超時。\n請重新配對。\n\n錯誤代碼 {{errorCode}}",
+                "27": "傳送終止。\n下述檔案正在其他應用程式中使用。\n請終止使用該檔案的應用程式。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "28": "傳送終止。\n無法存取以下檔案。\n請確認存取許可的設定。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "29": "傳送終止。\n無法寫入以下資料夾。\n請確認存取許可設定、或選擇其他儲存目標。\n\n資料夾名稱\n{{folder}}\n\n錯誤代碼 {{errorCode}}",
+                "3": "無法執行對電子紙的操作。\n\n錯誤代碼 {{errorCode}}",
+                "31": "無法變更名稱。\n檔案名稱長度超過可註冊的上限。\n請輸入其他名稱。\n\n錯誤代碼 {{errorCode}}",
+                "32": "無法執行。\n存在名稱相同的檔案。\n請變更模板名稱。\n\n錯誤代碼 {{errorCode}}",
+                "33": "無法確認更新。\n無法連線到網路。\n請確認電腦的網路連線。\n\n錯誤代碼 {{errorCode}}",
+                "34": "更新失敗。\n無法連線到網路。\n請確認電腦的網路連線，並重新更新。\n\n錯誤代碼 {{errorCode}}",
+                "35": "無法傳送。\n請確認電腦與電子紙是否連線正確。\n\n錯誤代碼 {{errorCode}}",
+                "36": "無法更新。\n電子紙電池電量過低。\n請在充電後重新更新。\n\n錯誤代碼 {{errorCode}}",
+                "37": "無法登入Wi-Fi網路。\n\n錯誤代碼 {{errorCode}}",
+                "38": "無法登入Wi-Fi網路。\n超過一定時間，發生超時。\n請重新進行Wi-Fi設定。\n\n錯誤代碼 {{errorCode}}",
+                "39": "無法登入Wi-Fi網路。\n需要登入的無線路由器使用了不支援的加密方式。\n請變更無線路由器加密方式、或連線到支援的Wi-Fi網路。\n\n錯誤代碼 {{errorCode}}",
+                "4": "電子紙韌體版本過低，需要更新。\n請使用USB連接電子紙，並透過選單[說明] - [韌體更新]進行更新。\n\n錯誤代碼 {{errorCode}}",
+                "40": "無法登入Wi-Fi網路。\n無線路由器可能設定了Protected Setup™ 保護模式。\n\n錯誤代碼 {{errorCode}}",
+                "41": "無法登入Wi-Fi網路。\n電子紙正在執行其他操作。\n請稍後重新登入。\n\n錯誤代碼 {{errorCode}}",
+                "42": "無法連線到電子紙。\n連線的電子紙配對無效。\n請重新配對。\n\n錯誤代碼 {{errorCode}}",
+                "43": "無法開啟電子紙Wi-Fi。\n電子紙電池電量過低。\n請在充電後重新開啟Wi-Fi。\n\n錯誤代碼 {{errorCode}}",
+                "44": "無法開啟電子紙Wi-Fi。\n電子紙正在執行其他操作。\n請稍等片刻後重新開啟Wi-Fi。\n\n錯誤代碼 {{errorCode}}",
+                "45": "無法開啟電子紙Wi-Fi。\n請稍等片刻後重新開啟Wi-Fi。\n\n錯誤代碼 {{errorCode}}",
+                "46": "無法安裝憑證。\n電子紙不支援該憑證檔案格式。\n請選擇支援格式的憑證。\n\n錯誤代碼 {{errorCode}}",
+                "47": "無法安裝憑證。\n憑證檔案內容不正確。\n請諮詢憑證發布單位。\n\n錯誤代碼 {{errorCode}}",
+                "48": "無法安裝憑證。\n\n錯誤代碼 {{errorCode}}",
+                "49": "安裝憑證失敗。\n憑證密碼不正確。\n\n錯誤代碼 {{errorCode}}",
+                "5": "連線至電子紙需安裝新版本的Digital Paper PC App。\n請透過以下URL下載並安裝最新版本。\n\nwww.sony.net/cn/dpapp\n\n錯誤代碼 {{errorCode}}",
+                "51": "無法開始更新。\n電子紙正在執行其他操作。\n請稍等片刻後重新更新。\n\n錯誤代碼 {{errorCode}}",
+                "52": "無法登記筆記模板。\n筆記模板數量已達到可登記上限。\n請刪除多餘模板。\n\n錯誤代碼 {{errorCode}}",
+                "54": "無法執行。\n未找到所選擇的筆記模板。\n\n錯誤代碼 {{errorCode}}",
+                "57": "無法執行。\n未找到指定資料夾。\n請單擊列表上的當前資料夾，重新進行顯示。\n\n資料夾名稱\n{{folder}}\n\n錯誤代碼 {{errorCode}}",
+                "58": "傳送終止。\n未找到傳送來源位置的以下資料夾。\n\n資料夾名稱\n{{folder}}\n\n錯誤代碼 {{errorCode}}",
+                "59": "無法變更名稱。\n資料夾名稱長度超過可註冊的上限。\n請輸入其他名稱。\n\n錯誤代碼 {{errorCode}}",
+                "6": "連線至電子紙需安裝新版本的Digital Paper PC App。\n請透過以下URL下載並安裝最新版本。\n\nwww.sony.net/cn/dpapp\n\n錯誤代碼 {{errorCode}}",
+                "60": "無法新增筆記模板。\n請確認未使用密碼對檔案進行保護，或是否能夠透過電子紙進行顯示。\n\n錯誤代碼 {{errorCode}}",
+                "61": "無法新增筆記模板。\n根據安全設定，不得對該PDF檔案進行編輯。\n\n錯誤代碼 {{errorCode}}",
+                "62": "無法新增筆記模板。\n檔案大小超過上限。\n\n錯誤代碼 {{errorCode}}",
+                "63": "無法貼上。\n欲貼上的資料夾為原資料夾的子資料夾。\n\n錯誤代碼 {{errorCode}}",
+                "65": "無法連線到電子紙。\n請確認電腦與電子紙是否正常連線。\n\n錯誤代碼 {{errorCode}}",
+                "66": "無法透過電子紙列印。\n如需透過電子紙列印，請配對電腦與電子紙。\n\n錯誤代碼 {{errorCode}}",
+                "67": "無法列印到電子紙。\n未能找到列印資料。\n\n錯誤代碼 {{errorCode}}",
+                "68": "無法列印到電子紙。\n未能找到Digital Paper PC App。\n\n錯誤代碼 {{errorCode}}",
+                "69": "貼上終止。\n未找到傳送來源位置的以下檔案。\n\n檔案名稱\n{{fileFolder}}\n\n錯誤代碼 {{errorCode}}",
+                "7": "無法連線到電子紙。\n請透過[設定] - [重新設定配對]與電子紙進行配對。\n\n錯誤代碼 {{errorCode}}",
+                "70": "貼上終止。\n未找到傳送來源位置的以下資料夾。\n\n資料夾名稱\n{{fileFolder}}\n\n錯誤代碼 {{errorCode}}",
+                "71": "貼上終止。\n未能找到傳送目標的以下資料夾。 \n\n資料夾名稱\n{{folder}}\n\n錯誤代碼 {{errorCode}}",
+                "72": "未能完成處理。\n電子紙超時。\n\n錯誤代碼 {{errorCode}}",
+                "73": "傳送終止。\n未能找到傳送目標的以下資料夾。\n\n資料夾名稱\n{{folder}}\n\n錯誤代碼 {{errorCode}}",
+                "74": "無法傳送。\n僅可向電子紙傳送PDF檔案。\n\n錯誤代碼 {{errorCode}}",
+                "75": "無法執行。\n\n錯誤代碼 {{errorCode}}",
+                "76": "無法執行。\n無法讀取檔案。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "77": "無法執行。\n無法寫入。\n\n錯誤代碼 {{errorCode}}",
+                "78": "無法傳送。\n無法讀取檔案。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "79": "無法傳送。\n無法寫入檔案。\n\n檔案名稱\n{{file}}\n\n錯誤代碼 {{errorCode}}",
+                "8": "與電子紙的配對失敗。\n請重新配對。\n\n錯誤代碼 {{errorCode}}",
+                "80": "無法設定同步資料夾。\n指定資料夾中含同步資料夾。\n請選擇其他資料夾。\n\n錯誤代碼 {{errorCode}}",
+                "81": "無法設定同步資料夾。\n無法將所選擇的資料夾設定為同步資料夾。\n請選擇其他資料夾。\n\n錯誤代碼 {{errorCode}}",
+                "82": "無法解除同步設定。\n請選擇設定同步資料夾時所指定的資料夾。\n\n錯誤代碼 {{errorCode}}",
+                "83": "無法設定同步資料夾。\n選擇資料夾中包含同步資料夾。\n\n錯誤代碼 {{errorCode}}",
+                "84": "無法設定同步資料夾。\n同步中設定的資料夾數量已達到上限。\n\n錯誤代碼 {{errorCode}}",
+                "85": "無法設定同步資料夾。\n選擇資料夾已設定為同步資料夾。\n\n錯誤代碼 {{errorCode}}",
+                "86": "同步終止。\n\n錯誤代碼 {{errorCode}}",
+                "87": "無法更新。\n更新檔案下載失敗。\n\n錯誤代碼 {{errorCode}}",
+                "88": "無法確認更新。\n請稍等片刻後重新執行。\n\n錯誤代碼 {{errorCode}}",
+                "89": "無法執行。\n同步過程中，無法對正在同步中的資料夾進行操作。 \n請在結束同步後進行操作。\n\n錯誤代碼 {{errorCode}}",
+                "9": "認證密碼錯誤。\n請重新配對。\n\n錯誤代碼 {{errorCode}}",
+                "90": "無法連線Bluetooth。\n該電腦中已登入多個電子紙作為Bluetooth裝置。 \n請從電腦中刪除即將連線的電子紙以外的其它電子紙裝置。\n\n錯誤代碼 {{errorCode}}",
+                "91": "無法執行對電子紙的處理。\n\n錯誤代碼 {{errorCode}}",
+                "92": "無法開啟電子紙Wi-Fi。\n請在解除電子紙睡眠模式後，重新開啟Wi-Fi。\n\n錯誤代碼 {{errorCode}}",
+                "93": "無法開啟電子紙Wi-Fi。\n\n錯誤代碼 {{errorCode}}",
+                "94": "無法執行。\n正在進行韌體更新。\n\n錯誤代碼 {{errorCode}}",
+                "95": "無法列印到電子紙。\n請確認電腦與電子紙是否正常連線。\n\n錯誤代碼 {{errorCode}}",
+                "96": "沒有足夠的可用儲存空間來執行更新。\n增加可用空間後，從選單中執行[說明]-[軟體更新]。"
+            }
+        },
+        "nobtn": {
+            "wait": {
+                "message": "正在連線至電子紙…",
+                "title": "Digital Paper PC App"
+            }
+        },
+        "notice": {
+            "addedSyncFolder": {
+                "title": "設定同步資料夾。"
+            },
+            "btUnrecoverableError": {
+                "message": "Bluetooth連線發生錯誤。\n請在結束Digital Paper PC App後嘗試以下操作。\n\n- 關閉電腦Bluetooth功能後重新開啟。\n- 關閉電子紙Bluetooth功能後重新開啟。\n- 重啟電腦。",
+                "title": "Digital Paper PC App"
+            },
+            "exportOnDocView": {
+                "message": "按下工具欄[資料夾]，並切換顯示後執行。",
+                "title": "匯入文件到電子紙"
+            },
+            "foundMultiBtDps": {
+                "message": "該電腦中已登錄多個電子紙作為Bluetooth裝置。 \n請從電腦中刪除即將連線的電子紙以外的其它電子紙裝置。",
+                "title": "連線"
+            },
+            "latestSoftware": {
+                "message": "所使用的軟體為最新版本。"
+            },
+            "newerAppFound": {
+                "message": "發現最新Digital Paper PC App。\n如需更新Digital Paper PC App，請透過以下URL下載並安裝。\nwww.sony.net/dpapp",
+                "title": "軟體更新"
+            },
+            "newerSoftwareFoundByWiFi": {
+                "message": "發現最新電子紙韌體。\n如需更新本體韌體，請在連接USB後，執行選單的[{{menu.category.help}}] - [{{func.app.softwareUpdate}}]。"
+            },
+            "syncAborted": {
+                "message": "已終止同步。",
+                "title": "同步"
+            },
+            "syncAddDuplicate": {
+                "message": "無法設定同步資料夾。\n選擇資料夾已設定為同步資料夾",
+                "title": "設定同步資料夾。"
+            },
+            "syncAddIncludeSyncFolder": {
+                "message": "無法設定同步資料夾。\n指定資料夾中含同步資料夾。\n請選擇其他資料夾。",
+                "title": "設定同步資料夾。"
+            },
+            "syncAddMax": {
+                "message": "無法設定同步資料夾。\n同步設定的資料夾數量已達到上限。",
+                "title": "設定同步資料夾。"
+            },
+            "syncAddSyncSubfolder": {
+                "message": "無法設定同步資料夾。\n選擇資料夾包含在同步資料夾中。",
+                "title": "設定同步資料夾。"
+            },
+            "syncAddSyncing": {
+                "message": "無法設定同步資料夾。 \n請在結束同步後進行操作。",
+                "title": "設定同步資料夾。"
+            },
+            "syncComplete": {
+                "message": "已完成同步。",
+                "title": "同步"
+            },
+            "syncError": {
+                "message": "出現錯誤，現已終止同步。",
+                "title": "同步"
+            },
+            "syncMissingDpFolder": {
+                "message": "電子紙中未能找到同步設定的資料夾。\n解除該資料夾同步設定。\n\n資料夾\n{{folderPath}}",
+                "title": "同步"
+            },
+            "syncMissingPcFolder": {
+                "message": "電腦中未能找到同步設定的資料夾。\n解除該資料夾同步設定。\n\n資料夾\n{{folderPath}}",
+                "title": "同步"
+            },
+            "syncNoPcFolder": {
+                "message": "電腦中未能找到同步的資料夾。\n\n資料夾\n{{folderPath}}",
+                "title": "開啟同步資料夾"
+            },
+            "syncSettingCondition": {
+                "message": "選擇一個資料夾後執行。",
+                "title": "設定同步資料夾。"
+            },
+            "unsynced": {
+                "message": "啟動Digital Paper PC App後，尚未進行同步。",
+                "title": "同步"
+            },
+            "updateTransfered": {
+                "message": "完成向電子紙傳送更新檔案，開始更新。\n請勿在完成之前斷開USB連線。\n稍等片刻後仍未更新畫面時，請重啟Digital Paper PC App。"
+            }
+        },
+        "title": {
+            "error": "Digital Paper PC App",
+            "softwareUpdate": "韌體更新"
+        },
+        "wait": {
+            "connectingWifi": {
+                "message": "正在連線到Wi-Fi網路..."
+            },
+            "message": "請稍等...",
+            "title": "Digital Paper PC App"
+        }
+    },
+    "func": {
+        "app": {
+            "about": "Digital Paper PC App相關事項",
+            "launchSupportSite": "產品資訊網站",
+            "onlineHelp": "說明指南",
+            "quit": "結束",
+            "softwareUpdate": "韌體更新"
+        },
+        "config": {
+            "manageProfile": "更換電子紙",
+            "showConfig": "設定"
+        },
+        "dp": {
+            "externalOutput": "截圖",
+            "fullScreen": "全螢幕顯示",
+            "screenshot": "儲存為影像",
+            "toast": {
+                "howToEnterFullScreenMode": "按下F鍵開始全螢幕顯示。",
+                "howToLeaveFullScreenMode": "按下ESC鍵結束全螢幕顯示。"
+            }
+        },
+        "edit": {
+            "copy": "複製",
+            "cut": "剪下",
+            "paste": "貼上",
+            "selectall": "全部選取"
+        },
+        "fileDP": {
+            "copy": "複製（電子紙內）",
+            "cut": "剪下（電子紙內）",
+            "delete": "刪除",
+            "import": "將文件傳送至電腦",
+            "moveToFileFolder": "開啟檔案所在位置",
+            "open": "開啟",
+            "openOnDP": "透過電子紙開啟",
+            "paste": "貼上（電子紙內）",
+            "rename": "重新命名"
+        },
+        "fileManage": {
+            "createFolder": "新建資料夾",
+            "selectAll": "全部選取"
+        },
+        "filePC": {
+            "export": "將檔案傳送至電子紙"
+        },
+        "mac": {
+            "displayAll": "顯示全部",
+            "hideMe": "隱藏Digital Paper PC App",
+            "hideOther": "隱藏其它應用程式",
+            "quit": "結束Digital Paper PC App"
+        },
+        "search": {
+            "execSearch": "搜尋",
+            "typeMark": "標記",
+            "typeText": "檔案資訊",
+            "typeTextBody": "內文",
+            "typeTextMeta": "檔案名稱、標題、作者"
+        },
+        "sync": {
+            "add": "設定同步資料夾。",
+            "exec": "同步",
+            "openDst": "開啟同步資料夾",
+            "remove": "解除同步設定"
+        },
+        "view": {
+            "changeFolder": "顯示資料夾",
+            "document": "文件列表",
+            "folder": "資料夾",
+            "refresh": "更新",
+            "showUpperFolder": "前往上一層",
+            "sort": {
+                "asc": "升序",
+                "changeSortKey": "重新排列",
+                "desc": "降序"
+            }
+        }
+    },
+    "help": {
+        "launchSupportSite": {
+            "url": {
+                "cn": "http://www.fmworld.net/digital-paper/",
+                "jp": "http://www.fmworld.net/digital-paper/",
+                "us": "http://www.fmworld.net/digital-paper/"
+            }
+        },
+        "onlineHelp": {
+            "url": "http://www.fmworld.net/digital-paper/support/"
+        }
+    },
+    "menu": {
+        "category": {
+            "display": "檢視",
+            "edit": "編輯",
+            "file": "檔案",
+            "help": "說明",
+            "tool": "工具"
+        }
+    },
+    "page": {
+        "installCert": {
+            "description": "安全地連線至電子紙需在電腦上安裝憑證。<br/>\n<br/>\n按下[下一步]，將安裝電子紙發行的憑證。<br/>\n根據不同的作業系統，可能要求進行確認。<br/>\n不得將安裝的憑證用於與配對電子紙通訊以外的其他用途。"
+        },
+        "pairing": {
+            "description": "在電子紙中輸入所顯示的認證碼。<br/>\n<br/>\n請在下述文字框中輸入配對電子紙畫面所顯示的認證碼，並按[下一步]按鈕。",
+            "label": {
+                "authCode": "認證碼"
+            }
+        },
+        "setupComplete": {
+            "button": {
+                "close": "完成"
+            },
+            "description": "與電子紙的配對完成。",
+            "header": "完成",
+            "intro": {
+                "jp": "與電子紙的配對完成。<br/>\n<br/>\n電子紙產品資訊網站中將為您介紹電子紙相關最新資訊及使用技巧。",
+                "us": "與電子紙的配對完成。"
+            },
+            "url": {
+                "cn": "http://www.fmworld.net/digital-paper/",
+                "jp": "http://www.fmworld.net/digital-paper/",
+                "regcn": "http://www.fmworld.net/digital-paper/",
+                "regjp": "http://www.fmworld.net/digital-paper/",
+                "regus": "http://www.fmworld.net/digital-paper/",
+                "us": "http://www.fmworld.net/digital-paper/"
+            }
+        },
+        "welcomeConnection": {
+            "description": "與電子紙進行配對。<br/>\n<br/>\n與電子紙配對後，可與該電子紙間進行檔案傳輸。",
+            "header": "與電子紙配對"
+        },
+        "wifiConf": {
+            "bt": {
+                "message": "電腦與電子紙的連線亦需使用Bluetooth功能。使用方法請瀏覽下述URL。",
+                "url": {
+                    "cn": "http://www.fmworld.net/digital-paper/support/",
+                    "jp": "http://www.fmworld.net/digital-paper/support/",
+                    "us": "http://www.fmworld.net/digital-paper/support/"
+                }
+            },
+            "description": "設定電子紙需連線的Wi-Fi網路。<br/>\n<br/>\n使用Wi-Fi實現電子紙與電腦間的連線，需雙方連線到相同網路。",
+            "header": "Wi-Fi網路設定",
+            "manual": {
+                "label": "手動設定Wi-Fi網路"
+            },
+            "message": {
+                "wait": "請稍等..."
+            },
+            "select": {
+                "description": "請從電子紙可使用的Wi-Fi網路列表中進行選擇。",
+                "label": "從列表中選擇",
+                "refresh": "更新列表"
+            },
+            "wps": {
+                "description": "使用Wi-Fi Protected Setup™ 按鈕方式、或Wi-Fi Protected Setup™ PIN方式進行設定。",
+                "label": "使用Wi-Fi Protected Setup™"
+            }
+        },
+        "wifiDetail": {
+            "connected": "已設定Wi-Fi網路。",
+            "description": {
+                "manual": "設定Wi-Fi網路。<br/>\n請輸入必要項目，並按[下一步]。",
+                "wps": "請選擇Wi-Fi Protected Setup™ 方式。",
+                "wpsPin": "透過Wi-Fi Protected Setup™ PIN 方式設定。<br/>\n按[下一步]按鈕後，生成PIN碼。<br/>\n請在2分鐘以內，於Wi-Fi路由器中輸入所顯示的PIN碼。",
+                "wpsPush": "透過Wi-Fi Protected Setup™ 按鈕方式設定。<br/>\n請按下Wi-Fi路由器Wi-Fi Protected Setup™按鈕，並在2分鐘以內按[下一步]按鈕。"
+            },
+            "dpStatus": {
+                "label": "電子紙Wi-Fi連線狀況",
+                "ssid": {
+                    "label": "SSID"
+                },
+                "status": {
+                    "connect": "已連線",
+                    "connecting": "連線中",
+                    "disconnect": "未連線",
+                    "label": "連線狀況"
+                }
+            },
+            "label": {
+                "connectFailed": "失敗",
+                "connectSucceeded": "成功",
+                "resultConnect": "連線結果 :",
+                "savedInfo": "已儲存的Wi-Fi網路資訊",
+                "wpsPin": "Wi-Fi Protected Setup™ PIN 方式",
+                "wpsPush": "Wi-Fi Protected Setup™ 按鈕方式"
+            },
+            "manual": {
+                "caCert": {
+                    "button": {
+                        "install": "安裝憑證"
+                    }
+                },
+                "eapMethod": {
+                    "peap": "PEAP",
+                    "tls": "TLS"
+                },
+                "label": {
+                    "anonymousIdentity": "匿名存取使用者名稱",
+                    "caCert": "CA 憑證",
+                    "dns1": "主要DNS",
+                    "dns2": "次要DNS",
+                    "eapMethod": "EAP方式",
+                    "gateway": "閘道",
+                    "identity": "使用者名稱",
+                    "ipAddr": "IP 位址",
+                    "macAddr": "電子紙Mac位址",
+                    "noDhcp": "手動設定IP位址",
+                    "password": "密碼",
+                    "phase2auth": "階段2認證方式",
+                    "secMethod": "安全方式",
+                    "ssid": "SSID",
+                    "subnetmask": "子網域遮罩",
+                    "userCert": "使用者憑證"
+                },
+                "password": {
+                    "button": {
+                        "show": "顯示密碼"
+                    }
+                },
+                "phase2auth": {
+                    "gtc": "GTC",
+                    "mschapv2": "MSCHAPV2",
+                    "none": "無"
+                },
+                "secMethod": {
+                    "8021xEap": "802.1x EAP (AES)",
+                    "open": "開放系統認證",
+                    "wpa2Psk": "WPA2-PSK (AES)"
+                },
+                "userCert": {
+                    "button": {
+                        "install": "安裝憑證"
+                    },
+                    "install": "使用者憑證"
+                }
+            },
+            "result": {
+                "prompt": "重新設定時，請按[返回]按鈕。<br/>\n直接結束時，請按[下一步]按鈕。"
+            },
+            "status": {
+                "description": "無論電子紙是否處於可接受訊號的範圍內，Wi-Fi連線處於「未連線」或「連線中」狀態時，所儲存的資訊可能不正確。請按下[返回]後確認設定。<br/>\n<br/>\n直接結束時，請按[下一步]按鈕。可在以後於「設定」畫面進行Wi-Fi網路設定。"
+            },
+            "wpsPin": {
+                "countDown": "請在2分鐘內，在無線路由器中輸入以下PIN碼。",
+                "label": {
+                    "PinCode": "PIN"
+                },
+                "remainTime": "剩餘 {{time}} 秒"
+            },
+            "wpsPush": {
+                "countDown": "請在2分鐘內按下無線LAN路由器的Wi-Fi Protected Setup™ 按鈕。",
+                "remainTime": "剩餘 {{time}} 秒"
+            }
+        }
+    },
+    "print2dp": {
+        "menu": {
+            "mac": "將PDF文件列印到電子紙"
+        }
+    },
+    "searchDp": {
+        "connect": {
+            "usb": "USB",
+            "usbWifi": "USB , 無線",
+            "wifi": "無線"
+        },
+        "description": "請選擇使用的電子紙。<br/>\n可透過電子紙的[設定] - [關於本裝置] - [裝置資訊]確認裝置 ID。",
+        "label": {
+            "connect": "連線",
+            "pairingStatus": "配對",
+            "serialNo": "裝置 ID"
+        },
+        "noDp": "未能找到電子紙。",
+        "paired": "已配對",
+        "title": "Digital Paper PC App"
+    },
+    "state": {
+        "dp": {
+            "capacity": {
+                "mid": "/",
+                "unit": {
+                    "giga": "GB",
+                    "mega": "MB"
+                }
+            },
+            "connected": "已連線",
+            "disconnected": "未連線",
+            "noRegist": "未設定",
+            "sync": {
+                "guide": "同步設定方法",
+                "last": {
+                    "label": "更新",
+                    "nodata": "-"
+                },
+                "urlGuide": "http://www.fmworld.net/digital-paper/support/"
+            }
+        }
+    },
+    "sync": {
+        "introduce": {
+            "goNext": "選擇資料夾",
+            "message": "電子紙中被選擇的的資料夾與電腦中被選擇的資料夾進行同步。<br/>\n同步後、選擇的2個資料夾中的內容相同。",
+            "title": "設定同步資料夾。"
+        },
+        "ngResult": {
+            "message": "無法執行以下資料夾及檔案的同步。",
+            "proc": {
+                "DPadd": "無法新增到電子紙。",
+                "DPdelete": "無法刪除電子紙中的檔案。",
+                "DPnewFolder": "無法在電子紙中建立資料夾。",
+                "DPnoRoot": "電子紙中未能找到同步設定的資料夾。",
+                "DPupdate": "無法更新電子紙中的檔案。",
+                "PCadd": "無法新增至電腦。",
+                "PCdelete": "無法刪除電腦的檔案。",
+                "PCnewFolder": "無法在電腦中建立資料夾。",
+                "PCnoRoot": "電腦中未能找到同步設定的資料夾。",
+                "PCupdate": "無法更新電腦檔案。",
+                "add": "傳送 (新增)",
+                "delete": "刪除",
+                "newFolder": "建立資料夾",
+                "noRoot": "確認同步資料夾",
+                "update": "傳送 (覆蓋)"
+            },
+            "title": "同步",
+            "toDP": {
+                "caption": "同步到電子紙失敗的電腦檔案",
+                "label": {
+                    "fileList": "電腦檔案",
+                    "process": "錯誤訊息"
+                }
+            },
+            "toPC": {
+                "caption": "同步到電腦失敗的電子紙檔案",
+                "label": {
+                    "fileList": "電子紙檔案",
+                    "process": "錯誤訊息"
+                }
+            }
+        }
+    },
+    "toolbar": {
+        "bluetooth": {
+            "connect": "連線"
+        },
+        "sync": {
+            "exec": "同步"
+        }
+    },
+    "tooltip": {
+        "sync": {
+            "pcpath": "同步"
+        },
+        "toolbar": {
+            "createFolder": "新建資料夾",
+            "delete": "刪除",
+            "import": "將文件傳送至電腦",
+            "sync": "與電腦同步",
+            "syncadd": "設定同步資料夾。"
+        }
+    },
+    "update": {
+        "button": {
+            "agreeUpdate": "同意上述內容並更新。",
+            "execUpdate": "立即更新",
+            "later": "稍後更新"
+        },
+        "currentVersion": {
+            "value": "{{versionCurrent}}"
+        },
+        "eula": {
+            "cancel": "取消",
+            "description": "請仔細閱讀以下使用許可協議。",
+            "next": "下載",
+            "radio": {
+                "accept": "同意使用許可協議條款",
+                "deny": "不同意使用許可協議條款"
+            },
+            "title": "使用許可協議"
+        },
+        "label": {
+            "currentVersion": "目前版本",
+            "disclaimer": "免責事項",
+            "updateInfo": "更新內容"
+        },
+        "message": {
+            "newApp": "Digital Paper PC App 已經有新版 {{versionNew}} 可以提供更新。",
+            "newDp": "新版的電子紙系統（版本　 {{versionNew}} ）已經可以提供更新。"
+        },
+        "progress": {
+            "downloadFile": "正在下載更新檔案. . .",
+            "remainTime": "剩餘時間（估計）",
+            "slash": "/",
+            "title": "韌體更新",
+            "transferFile": "正在向電子紙傳送更新檔案. . ."
+        },
+        "title": "Digital Paper PC App",
+        "updateInfoPage": {
+            "open": "更新軟體",
+            "url": "http://www.fmworld.net/digital-paper/support/download/"
+        }
+    },
+    "wifi": {
+        "netmask": {
+            "list": {
+                "mask0": "0.0.0.0",
+                "mask1": "128.0.0.0",
+                "mask10": "255.192.0.0",
+                "mask11": "255.224.0.0",
+                "mask12": "255.240.0.0",
+                "mask13": "255.248.0.0",
+                "mask14": "255.252.0.0",
+                "mask15": "255.254.0.0",
+                "mask16": "255.255.0.0",
+                "mask17": "255.255.128.0",
+                "mask18": "255.255.192.0",
+                "mask19": "255.255.224.0",
+                "mask2": "192.0.0.0",
+                "mask20": "255.255.240.0",
+                "mask21": "255.255.248.0",
+                "mask22": "255.255.252.0",
+                "mask23": "255.255.254.0",
+                "mask24": "255.255.255.0",
+                "mask25": "255.255.255.128",
+                "mask26": "255.255.255.192",
+                "mask27": "255.255.255.224",
+                "mask28": "255.255.255.240",
+                "mask29": "255.255.255.248",
+                "mask3": "224.0.0.0",
+                "mask30": "255.255.255.252",
+                "mask31": "255.255.255.254",
+                "mask32": "255.255.255.255",
+                "mask4": "240.0.0.0",
+                "mask5": "248.0.0.0",
+                "mask6": "252.0.0.0",
+                "mask7": "254.0.0.0",
+                "mask8": "255.0.0.0",
+                "mask9": "255.128.0.0"
+            }
+        },
+        "secMethod": {
+            "8021xEap": "802.1x EAP (AES)",
+            "open": "開放系統認證",
+            "wpa2Psk": "WPA2-PSK (AES)"
+        },
+        "ssid": "SSID",
+        "status": {
+            "connect": "已連線",
+            "connecting": "連線中",
+            "disconnect": "未連線"
+        }
+    },
+    "wizard": {
+        "connect": {
+            "header": "連線至電子紙"
+        }
+    }
+}
