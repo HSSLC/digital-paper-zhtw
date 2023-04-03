@@ -1,6 +1,4 @@
 ## Sony Digital Paper App 與 Fujitsu Digital Paper PC App 繁體中文翻譯
-![screenshot of sony](screenshots/sony.png)
-![screenshot of fujitsu](screenshots/fujitsu.png)
 鑒於Sony Digital Paper App在繁體中文環境下還是會以簡體中文顯示，以及Fujitsu Digital Paper PC App沒有繁體中文的翻譯，此處翻譯了一份繁體中文翻譯檔供大家使用。  
 __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修改__  
 
@@ -50,7 +48,10 @@ node %USERPROFILE%\node_modules\@electron\asar\bin\asar.js pack app app.asar
 * Digital Paper App 1.4.6.00008版（Sony）
 * Digital Paper PC App 1.1.1.09250版（Fujitsu）
 
+### 螢幕截圖
 
+![screenshot of sony](screenshots/sony.png)
+![screenshot of fujitsu](screenshots/fujitsu.png)
 
 ### 聲明
 
