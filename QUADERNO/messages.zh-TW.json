@@ -357,10 +357,10 @@
             },
             "cancelDPAUpdate": {
                 "message": "是否終止QUADERNO PC App軟體更新?",
-                "title": "韌體更新"
+                "title": "軟體更新"
             },
             "cancelDPUpdate": {
-                "message": "是否終止電子紙的軟體更新？",
+                "message": "是否終止電子紙的韌體更新？",
                 "title": "韌體更新"
             },
             "delete": {
