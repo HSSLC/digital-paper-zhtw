@@ -1,13 +1,14 @@
-## Sony Digital Paper App 與 Fujitsu Digital Paper PC App 繁體中文翻譯
-鑒於Sony Digital Paper App在繁體中文環境下還是會以簡體中文顯示，以及Fujitsu Digital Paper PC App沒有繁體中文的翻譯，此處翻譯了一份繁體中文翻譯檔供大家使用。  
+## Sony Digital Paper App 與 Fujitsu Digital Paper PC App 及 QUADERNO PC App 繁體中文翻譯
+鑒於Sony Digital Paper App在繁體中文環境下還是會以簡體中文顯示，以及Fujitsu Digital Paper PC App（一代）和QUADERNO PC App（二代）沒有繁體中文的翻譯，此處翻譯了一份繁體中文翻譯檔供大家使用。  
 __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修改__  
 
-（以下通稱Sony Digital Paper App與Fujitsu Digital Paper PC App為Digital Paper App）  
+（以下通稱各版本軟體為Digital Paper App）  
 
 ### 螢幕截圖
 
 ![screenshot of sony](screenshots/sony.png)
 ![screenshot of fujitsu](screenshots/fujitsu.png)
+![screenshot of QUADERNO](screenshots/quaderno.png)
 
 ### 修改方式
 
@@ -27,6 +28,12 @@ C:\Program Files (x86)\Sony\Digital Paper App\DigitalPaperApp\resources\app.asar
 C:\Program Files (x86)\Fujitsu\Digital Paper PC App\DigitalPaperPCApp\resources\app.asar
 ```
 
+#### QUADERNO PC App
+
+```
+C:\Program Files\Fujitsu\QUADERNO PC App\QUADERNO_PCApp\resources\app.asar
+```
+
 請將其複製到其他地方以供拆解。  
 接下來用node.js執行asar工具，安裝完的asar主程式通常會以下位置
 ```
@@ -39,7 +46,7 @@ node %USERPROFILE%\node_modules\@electron\asar\bin\asar.js extract app.asar app
 ```
 
 記得將檔案名稱與位置自行替換成自己的。  
-然後將這個repo中對應Sony或是Fujitsu版本的`messages.zh-TW.json`下載並複製到`app\res\locales\messages.zh-TW.json`  
+然後將這個repo中對應各Digital Paper App版本的`messages.zh-TW.json`下載並複製到`app\res\locales\messages.zh-TW.json`  
 再來將這些檔案打包回去，考慮以下指令：
 ```
 node %USERPROFILE%\node_modules\@electron\asar\bin\asar.js pack app app.asar
@@ -48,10 +55,13 @@ node %USERPROFILE%\node_modules\@electron\asar\bin\asar.js pack app app.asar
 
 ### 翻譯
 
-用openCC翻譯+轉換詞彙，再人工修正，Fujitsu是用Sony版直接diff+merge，有可能會有轉換錯誤或是沒被轉換的漏網之魚，歡迎丟issues或是發pr進來。  
+用openCC翻譯+轉換詞彙，再人工修正，Fujitsu和QUADERNO是用Sony版直接diff+merge，有可能會有轉換錯誤或是沒被轉換的漏網之魚，歡迎丟issues或是發pr進來。  
 目前提供的翻譯檔案適用於以下版本，其他版本不保證可以完全相容：
 * Digital Paper App 1.4.6.00008版（Sony）
 * Digital Paper PC App 1.1.1.09250版（Fujitsu）
+* QUADERNO PC App 2.1.1.06290（Fujitsu二代）
+
+在原英文中有Software跟Firmware不精確地混用的情況，已經在繁體中文中盡量修正了，如果有漏修的歡迎回報。
 
 ### 聲明
 
