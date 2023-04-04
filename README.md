@@ -6,9 +6,14 @@ __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修
 
 ### 螢幕截圖
 
-![screenshot of sony](screenshots/sony.png)
-![screenshot of fujitsu](screenshots/fujitsu.png)
-![screenshot of QUADERNO](screenshots/quaderno.png)
+<table>
+  <tr>
+    <td><img src="screenshots/sony.png" alt="Screenshot of Sony"></td>
+    <td><img src="screenshots/fujitsu.png" alt="Screenshot of Fujitsu"></td>
+    <td><img src="screenshots/quaderno.png" alt="Screenshot of Quaderno"></td>
+  </tr>
+</table>
+
 
 ### 修改方式
 
