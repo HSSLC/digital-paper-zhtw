@@ -14,9 +14,34 @@ __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修
   </tr>
 </table>
 
+### 切換語言
+如果只是要切換語言的話，可以將主程式啟動的捷徑參數手動指定`--lang`參數。  
+內建的語言：
+* Sony Digital Paper App
+  * en
+  * ja
+  * zh（簡體）
+  * zh-CN（簡體）
+  * zh-TW（預設內容也是簡體，導致繁體使用者也會看到簡體而非failback的英文）
+* Fujitsu Digital Paper PC App
+  * en
+  * en-US（內容較en少了一點）
+  * ja
+  * zh-CN
+* Quaderno PC App
+  * en
+  * en-US（內容較en少了一點）
+  * ja
+  * zh-CN
+
+例如：
+```
+DigitalPaperApp.exe --lang=en
+```
 
 ### 修改方式
 
+如果需要新增繁體中文至Digital Paper App，需要手動修改程式資源，可以照著以下步驟修改：  
 需要先安裝[node.js](https://nodejs.org/)環境以使用asar包裝工具。  
 接下來要安裝[asar包裝工具](https://github.com/electron/asar#install)，請照著裡面的指示安裝。  
 然後下一步請找到Digital Paper App的程式檔，是以asar格式包裝的網頁，通常位於以下位置： 
