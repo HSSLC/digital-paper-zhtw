@@ -22,7 +22,7 @@ __本儲存庫不會提供修改好的二進位檔案，請自行按照步驟修
   * ja
   * zh（簡體）
   * zh-CN（簡體）
-  * zh-TW（預設內容也是簡體，導致繁體使用者也會看到簡體而非failback的英文）
+  * zh-TW（預設內容也是簡體，導致繁體使用者也會看到簡體而非fallback的英文）
 * Fujitsu Digital Paper PC App
   * en
   * en-US（內容較en少了一點）
